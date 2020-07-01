@@ -3,7 +3,7 @@ package br.com.altf4teste.teste.model;
 import javax.persistence.*;
 import java.math.BigDecimal;
 
-
+@Table(name = "produtos")
 @Entity
 public class Produto {
     @Id
